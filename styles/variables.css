@@ -6,11 +6,26 @@
 :root {
   --font-main: 'IBM Plex Mono', arial;
 
+  --font-size-base: 18px;
+  --font-size-title: clamp(7.25rem, 7.01rem + 1vw, 7.5rem);
+
   --background-color: #050b2a;
+  --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --accent-text-color: #000028;
   --title-text-color: #db00ff;
 
-  --font-size: 18px;
+  --background-image: url(/images/cover-image-dark.png);
 
+  --space-xs: 10px;
+  --space-s: 20px;
+  --space-m: 40px;
+  --space-l: 50px;
+
+  --line-height-tight: 0.83;
+  --line-height-text: 23.4px;
+
+  --shadow-text-s: 2px 2px 0 var(--accent-color);
+  --shadow-text-l: 4px 4px 0 var(--accent-color);
+  --shadow-glow: 0 0 4px 2px var(--accent-color);
 }

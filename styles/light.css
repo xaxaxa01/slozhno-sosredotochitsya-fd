@@ -9,4 +9,62 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --background-color: #fff1f7;
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --accent-text-color: #353430;
+  --title-text-color: #ffc2e6;
+
+  --background-image: url(/images/cover-image-light.png);
+
+  
+  .rec-text,
+  .rec-text::after {
+    display: none;
+  }
+
+  .decorated-zone::before,
+  .decorated-zone::after {
+    border-color: var(--text-color);
+  }
+
+  .header__theme-menu-button {
+      color: var(--text-color);
+    }
+
+  .header__theme-menu-button_active {
+    outline: 1px solid var(--text-color);
+  }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --accent-text-color: #353430;
+    --title-text-color: #ffc2e6;
+    --background-image: url(/images/cover-image-light.png);
+
+    
+    .rec-text,
+    .rec-text::after {
+      display: none;
+    }
+
+    .decorated-zone::before,
+    .decorated-zone::after {
+      border-color: var(--text-color);
+    }
+
+    .header__theme-menu-button {
+      color: var(--text-color);
+    }
+
+    .header__theme-menu-button_active {
+      outline: 1px solid var(--text-color);
+    }
+  }
+} 
+
