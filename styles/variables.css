@@ -4,10 +4,11 @@
 */
 
 :root {
-  --font-main: 'IBM Plex Mono', arial;
+  --font-main: "IBM Plex Mono", arial;
 
   --font-size-base: 18px;
-  --font-size-title: clamp(7.25rem, 7.01rem + 1vw, 7.5rem);
+  --font-size-title-mobile: clamp(7.25rem, 7.01rem + 1vw, 7.5rem);
+  --font-size-title-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
   --background-color: #050b2a;
   --text-color: #f1b2ce;
