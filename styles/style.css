@@ -385,15 +385,14 @@
   .content-section__layout-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
   }
 
   .content-section__layout-grid .content-section__title {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1 / -1;
   }
 
   .content-section__layout-grid .content-section__block {
-    grid-row: 2;
     align-content: flex-start;
   }
 }
