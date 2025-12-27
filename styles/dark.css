@@ -13,26 +13,15 @@
   --background-color: #050b2a;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
+  --accent-color-translucent: rgba(255, 0, 112, 0.4);
+  --decor-border-color: var(--accent-color);
   --accent-text-color: #000028;
   --title-text-color: #db00ff;
 
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
 
   .rec-text,
   .rec-text::after {
     display: flex;
-  }
-
-  .decorated-zone::before,
-  .decorated-zone::after {
-    border-color: var(--accent-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--accent-color);
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--accent-color);
   }
 }
